@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000814; /* richblack-900 */
+}
+::-webkit-scrollbar-thumb {
+  background: #161d29; /* richblack-800 */
+  border-radius: 4px;
+}
+.form-style {
+  background-color: #161d29; /* richblack-800 */
+  color: #f1f2ff; /* richblack-5 */
+  border-radius: 0.5rem;
+  padding: 12px;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.18);
+}
