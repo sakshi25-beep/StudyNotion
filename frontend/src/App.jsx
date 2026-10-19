@@ -5,7 +5,7 @@ import './App.css'
 
 import Home from "./pages/Home"
 import Navbar from "./componenets/Common/Navbar"
-import Login from './pages/login';
+import Login from './pages/Login';
 import Signup from './pages/Signup';
 import OpenRoute from "./componenets/core/Auth/OpenRoute";
 import ForgotPassword from './pages/ForgotPassword';
