@@ -28,10 +28,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: [
-      "https://study-notion-beta-swart.vercel.app",
-      "https://study-notion-j3ab7mtev-sakshi-cb99.vercel.app"
-    ],
+    origin: true, // Yeh kisi bhi Vercel URL ko apne aap allow kar lega
     credentials: true,
   })
 )
