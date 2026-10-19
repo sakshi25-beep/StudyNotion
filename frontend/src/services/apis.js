@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_BASE_URL.replace(/\/+$/, "");
+const BASE_URL = (import.meta.env.VITE_BASE_URL || "https://studynotion-vtfh.onrender.com/api/v1").replace(/\/+$/, "");
 
 // AUTH ENDPOINTS
 export const endpoints = {
