@@ -40,5 +40,5 @@ OTPSchema.pre("save", async function() {
     }
 });
 
-const OTP = mongoose.models.OTP || mongoose.model("OTP", OTPSchema);
+const OTP = mongoose.models.OTP || mongoose.model("otp", OTPSchema);
 module.exports = OTP;
